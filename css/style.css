@@ -1,0 +1,169 @@
+img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+body {
+	background-color: #fff;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+	padding: 0 5% 0 5%;
+}
+
+.header img {
+	position: relative; 
+	bottom: 7.7em; 
+	right: 0.9em;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: calc(1.2em + 1vw);
+}
+
+h2 {
+	margin: 0 0 1em;
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+h4 {
+	font-weight: 500;
+}
+
+h5 {
+	font-weight: 200;
+}
+
+p {
+	margin-bottom: calc(2em + 1%);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p a {
+	color: slateblue;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+nav a {
+	color: black;
+	padding-left: 4%;
+}
+
+.navbar {
+	text-align: right;
+}
+
+.slick-nav-slide {
+	padding: 0.3em;
+}
+
+.slider-for {
+	text-align: center;
+}
+
+.image-slide {
+	height: 25em;
+	padding-bottom: 3em;
+}
+
+.image-slide img {
+	max-height: 90%;
+}
+
+.project {
+	margin-bottom: 2em;
+	padding: 1em;
+	border: solid;
+	text-align: center;
+}
+
+.project:hover { 
+	background-color: lightblue;
+	color: black;
+	opacity: 0.7; 
+}
+
+.project-img {
+	display: block;
+}
+
+.project-title {
+	display: block;
+}
+
+.content {
+	border-radius: 10px;
+	margin-bottom: 5%;
+}
+
+figure {
+	float: right;
+	max-width: 50%;
+	padding: 1%;
+	text-align: center;
+	border: solid thick;
+}
+
+figcaption {
+	margin: 0.3em 0 0.2em 0;
+	font-size: 1.2em;
+}
+
+.project-container {
+	padding-top: 0;
+}
+
+.mobile-header {
+	opacity: 0.96;
+	padding: 3% 10% 2% 0;
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+    display: none;
+	z-index: 100;
+}
+
+.dropdown {
+    position: relative;
+	width: 100%;
+}
+
+.dropbtn {
+	display: block;
+	float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	width: 100%;
+}
+
+.show {
+	display:block;
+}
+
+#active {
+    background-color: deepskyblue;
+}
+
+.content, .project, figure {
+	border-color: lightblue;
+}

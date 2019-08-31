@@ -1,0 +1,79 @@
+@media (max-width: 56em) {
+	body {
+		padding: 0 5% 5% 5%;
+	}
+	
+	.grid-col-4w {
+		width: 50%;
+		padding-right: 10%;
+		height: 15em;
+	}
+	
+	figure {
+		clear: both;
+		max-width: 100%;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+	
+	.header {
+		display: none;
+	}
+	
+	.mobile-header {
+        display: block;
+    }
+	
+	.ghost-mobile {
+        display: block;
+    }
+	
+	nav {
+		margin-top: 3em;
+	}
+	
+	.slider-for {
+		height: 70vw;
+	}
+
+	nav a, nav a:visited {
+		display: inline-block;
+		font-size: 1em;
+		background-color: #FFFFFF;
+		color: #000000;
+		padding:0.4em;
+		text-decoration: none;
+		-webkit-transition: background-color 0.5s;
+		transition: background-color 0.5s;
+	}
+
+	nav a {
+		display: block;
+		text-align: right;
+	}
+
+	nav a:hover, nav a:focus {
+		background-color: lightblue;
+		color: black;
+	}
+	
+	.project-container {
+		padding-top: calc(3em + 8vw);
+	}
+}
+
+@media (max-width: 41em) {
+	.grid-col-1of2 {
+		width: 100%;
+	}
+	
+	.project {
+		
+	}
+	
+	.grid-col-4w {
+		width: 100%;
+		padding-right: 5%;
+		height: 10em;
+	}
+}

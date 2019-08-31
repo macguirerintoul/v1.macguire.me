@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Macguire | mrintoul@sfu.ca</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/queries.css">
+
+  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+</head>
+
+<body>
+  <div class="header">
+    <div class="grid-col-1of3">
+      <h1><a href="index.html">Macguire Rintoul</a></h1>
+      <img src="img/square-branding.png" width="25" height="25">
+    </div>
+    <div class="navbar">
+      <nav>
+        <a href="index.html">Projects</a>
+        <a href="https://www.flickr.com/photos/mrintoul">Photo</a>
+        <a href="https://vimeo.com/mrintoul">Video</a>
+        <a href="about.html">About</a>
+        <a href="img/Macguire-Rintoul-Resume.pdf">Resumé</a>
+      </nav>
+    </div>
+  </div> <!-- end of header -->
+
+  <div class="mobile-header">
+    <div class="dropdown">
+      <img src="img/mobile-menu.png" alt="Menu" width="50" class="dropbtn" onclick="dropDown()">
+      <div class="dropdown-content" id="dropdowncontent">
+        <nav>
+          <a href="index.html">Projects</a>
+          <a href="https://www.flickr.com/photos/mrintoul">Photo</a>
+          <a href="https://vimeo.com/mrintoul">Video</a>
+          <a href="about.html">About</a>
+          <a href="img/Macguire-Rintoul-Resume.pdf">Resumé</a>
+        </nav> <!-- end of nav -->
+      </div>
+    </div>
+    <div class="navtitle"><a href="index.html">Macguire</br>Rintoul</a></div>
+  </div> <!-- end of mobile-header -->
+
+  <div class="ghost-mobile"></div>
+
+  <div class="content">
+    <img src="img/project-sleepytime.png" alt="Sleepyti.me">
+    <h2>Sleepyti.me Redesign</h2>
+
+    <div class="grid-row" id="4wwrapper">
+      <div class="grid-col-4w">
+        <h3>What</h3>
+        <p>An experience design project making the existing service Sleepyti.me more visually appealing and easier to use</p>
+      </div>
+      <div class="grid-col-4w">
+        <h3>When</h3>
+        <p>Right now</p>
+      </div>
+      <div class="grid-col-4w">
+        <h3>Who</h3>
+        <p>Elena Hsu</p>
+      </div>
+      <div class="grid-col-4w">
+        <h3>Where</h3>
+        <p>Vancouver, BC</p>
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <h3>Why</h3>
+      <p><a href="http://www.sleepyti.me/">Sleepyti.me</a>, the “bedtime calculator”, is a service which calculates a sleep or wake time for users based on an average 90 - 120 minute sleep cycle - a good night’s sleep is 5 - 6 cycles. Users are
+        shown what time they should fall asleep if they need to wake up at a certain time, or what time they should wake up if they were to go to bed now.</p>
+
+      <p>The service works, but the flow of interactions is not optimized. Furthermore, due to unreasonable interaction methods, the experience of using the service is not as fulfilling as it could be.</p>
+
+      <h3>Are We Solving a Real Problem?</h3>
+      <p>According to SimilarWeb, the website www.sleepyti.me attracts 4.4 million visitors per year. The average visit duration is a bit over 1 minute, about the amount of time it would take to use the service and get results. Judging by these
+        numbers, we believe there is ample demand for the service and wish to improve it. 8% of the traffic comes from websites linking to the service, the greatest referrer being Reddit. According to a 2013 survey by Pew Research, 18-29 year olds
+        make up the majority of the Reddit audience. This constitutes our target audience, coupled with our theory that post-secondary education students are most likely to use the service due to hectic schedules.</p>
+
+      <p>The goal of this redesign is to make the site more visually appealing, and easier to use. We identified these friction points in our original analysis.</p>
+
+      <h4>Critique</h4>
+      <ul>
+        <li>Selecting time through drop-down takes far too many clicks and too much time</li>
+        <li>No hierarchy in type</li>
+        <li>To find out what time to wake up, users must go through an extra step of interaction</li>
+        <li>Site was optimized for mobile, but web wasn’t considered</li>
+        <li>The long complex process was not a pleasant user experience</li>
+        <li>A separate mobile site exists, but users are not redirected automatically and the interaction is still not as easy as it could be</li>
+      </ul>
+
+      <p>We then looked at the goals of the service and what it could provide to the user. To help with the development of our redesign, we created a user flow which illustrated the interactions we would need to design for. The alarm shortcuts would
+        be integrated via browser extensions, or through native clock functions on the user's mobile device.</p>
+
+      <img src="img/sleepytime-user-flow.png" alt="Sleepyti.me user flow">
+      <div class="grid-row">
+      </div>
+      <p>We then began sketching an interface for a mobile application.</p>
+
+      <div class="grid-row">
+        <img src="img/sleepytime-2.jpg">
+      </div>
+      <p>After we had made a sketch for each possible state of the app, we began creating a digital prototype in Sketch.</p>
+
+      <div class="grid-row">
+        <div class="slider-for">
+          <div class="image-slide">
+            <img src="img/opening.png" alt="The opening screen">
+            <p>The opening screen. We chose a dark shade of blue which connotes night-time and wouldn't be too bright and painful to look at.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/sleep-at.png" alt="The sleep at screen">
+            <p>The "sleep at" screen, the first on the navigation bar. The time defaults to the current time, so to see results, users simply tap the calculate button.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/sleep-at-edit-1.png" alt="Editing the time to go to sleep at">
+            <p>To change the time, users can tap on it and the native iOS number pad appears.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/sleep-at-edit-2.png" alt="Entering 11pm as the bedtime">
+            <p>Here, the user is entering 11pm as the bedtime. As each digit is input, it adds on to the right side of the time.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/sleep-at-edit-3.png" alt="Here, the user has finished picking a time and the keyboard hides itself.">
+            <p>Here, the user has finished picking a time and can tap calculate to see results.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/sleep-at-time-results.png" alt="Sakenomi 4">
+            <p>The "calculate" buton brings the user to the results page, where the optimum times are ranked. The circles to the right of each time represent a shortcut to create an alarm on the user's device. The bedtime selected by the user is
+              shown in the top text, so if the user notices a mistake, they can pick the time again by tapping "change time".</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/rise-at.png" alt="Here is the second mode of the app, where the user selects a time they need to wake up at.">
+            <p>Here is the second mode of the app, where the user selects a time they need to wake up at.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/rise-at-edit-1.png" alt="Here, the user is changing their wake time to 8:30am.">
+            <p>Here, the user changes their wake time to 8:30am.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/rise-at-results.png" alt="Here, instead of the optimum times to wake up, the user is shown optimum times to go to sleep. The circles to the right represent shortcuts to set a reminder for the user to go to sleep.">
+            <p>Here, instead of the optimum times to wake up, the user is shown optimum times to go to sleep. The circles to the right represent shortcuts to set a reminder for the user to go to sleep.</p>
+          </div>
+          <div class="image-slide">
+            <img src="img/about.png" alt="Sakenomi 7">
+            <p>This is the about page, where the user can find an explanation of what the app does and how it can help them. This page is third on the navigation, since users may have an understanding already from the description of the app in the
+              App Store.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="slider-nav">
+          <div class="slick-nav-slide"><img src="img/opening.png" alt="Sakenomi" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/sleep-at.png" alt="Sakenomi 1" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/sleep-at-edit-1.png" alt="Sakenomi 2" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/sleep-at-edit-2.png" alt="Sakenomi 3" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/sleep-at-edit-3.png" alt="Sakenomi 3" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/sleep-at-time-results.png" alt="Sakenomi 5" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/rise-at.png" alt="Sakenomi 6" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/rise-at-edit-1.png" alt="Sakenomi 6" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/rise-at-results.png" alt="Sakenomi 6" height="100"></div>
+          <div class="slick-nav-slide"><img src="img/about.png" alt="Sakenomi 7" height="100"></div>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <p>Next, we plan to finalize the mockups and create a web version.</p>
+      </div>
+
+    </div>
+  </div> <!-- end of content -->
+
+  <div class="footer">
+    <h5>Coded in 2016 by Macguire Rintoul</h5>
+  </div> <!-- end of footer -->
+
+  <script type="text/javascript" src="slick/dropdown.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="slick/image-slider.js"></script>
+
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84564601-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>
